@@ -30,7 +30,7 @@ npm install
 
 5. Start the development server:
 ```bash
-npx expo start
+npm start
 ```
 
 ## Technical Details
@@ -38,6 +38,8 @@ npx expo start
 - Expo SDK 50
 - Node.js 20.x
 - React Native
+- Backend: [rate-repository-api](https://github.com/fullstack-hy2020/rate-repository-api)
+
 
 ## Running the App
 
