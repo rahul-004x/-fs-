@@ -26,7 +26,7 @@ npm install
 
 5. Start the development server:
 ```bash
-npx expo start
+npm start
 ```
 
 ## Application Features
