@@ -1,18 +1,14 @@
-# -fs-
+# Rate Repository App
 
-Fullstack Open 2024 - Part 10 React Native
-
+## About
 This repository contains my exercise submissions for Part 10 of the Full Stack Open course, focusing on React Native development.
 
-## Contents in Part 10
+## Technical Details
 
-- Rate Repository App
-- User Reviews
-- User Authentication
-- Infinite Scrolling
-- pagination
-- Form Validation
-- Platform-specific Code
+- Expo SDK 50
+- Node.js 20.x
+- React Native
+- Backend: [rate-repository-api](https://github.com/fullstack-hy2020/rate-repository-api)
 
 ## Installation
 
@@ -30,16 +26,24 @@ npm install
 
 5. Start the development server:
 ```bash
-npm start
+npx expo start
 ```
 
-## Technical Details
+## Application Features
 
-- Expo SDK 50
-- Node.js 20.x
-- React Native
-- Backend: [rate-repository-api](https://github.com/fullstack-hy2020/rate-repository-api)
+### Core Features
+- GitHub Repository List & Search
+- Repository Rating System
+- User Authentication & Authorization
 
+### User Features
+- Create & Read Reviews
+- User Profile Management
+
+### Technical Implementation
+- Form Validation with Formik
+- Infinite Scrolling & Pagination
+- Platform-specific Optimizations
 
 ## Running the App
 
